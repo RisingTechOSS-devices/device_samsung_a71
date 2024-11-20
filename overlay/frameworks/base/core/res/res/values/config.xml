@@ -34,9 +34,6 @@
     <!-- Type of the udfps long press sensor. Empty if long press is not supported. -->
     <string name="config_dozeUdfpsLongPressSensorType" translatable="false">org.lineageos.sensor.udfps</string>
 
-    <!-- Use framework FOD dimming instead of kernel dimming -->
-    <bool name="config_udfpsFrameworkDimming">true</bool>
-
     <!-- Array of brightness-alpha lut for framework dimming -->
     <string-array name="config_udfpsDimmingBrightnessAlphaArray" translatable="false">
           <item>0,255</item>
